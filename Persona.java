@@ -16,12 +16,15 @@ public class Persona implements Comparable
         this.dataNascita = Calendar.getInstance();
         try
         {
-            dataNascita.setTime(sdf.parse(dataN)); 
-	} 
-	catch (java.text.ParseException e){ e.printStackTrace(); }
-	long diff = Calendar.getInstance().getTimeInMillis() - dataNascita.getTimeInMillis();
-	eta = (int)(diff/(1000*60*60*24));
-	eta = eta/365;
+            dataNascita.setTime(sdf.parse(dataN));
+        }
+        catch (java.text.ParseException e)
+        { 
+          e.printStackTrace();
+        }
+        long diff = Calendar.getInstance().getTimeInMillis() - dataNascita.getTimeInMillis();
+        eta = (int)(diff/(1000*60*60*24));
+        eta = eta/365;
     }
     public int getEta()
     {
