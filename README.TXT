@@ -4,9 +4,10 @@ Chi legge questo file, pur non sapendo nulla del progetto, dovrebbe ottenere tut
 le informazioni di cui ha bisogno. Probabilmente le informazioni essenziali sono:
 ----------------------------------------------------------------------------------
 
-NOME DEL PROGETTO:
+NOME DEL PROGETTO: Ordinamenti
 OBIETTIVO DEL PROGETTO
+Esaminare le diverse opzioni di ordinamento
 VERSIONE oppure DATA:
 COME AVVIARE IL PROGETTO:
-AUTORI:
+AUTORI: Luciano Schiavone
 ISTRUZIONI PER L'UTENTE:
